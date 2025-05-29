@@ -1,1 +1,2 @@
-import './js/burgerMenu';
+import './js/mobile.menu';
+import './js/modal-cookies';

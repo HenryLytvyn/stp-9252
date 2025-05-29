@@ -6,13 +6,25 @@
 */
 /* Common styles */
 @import url('./reset.css');
+@import url('./fonts.css');
 @import url('./base.css');
 @import url('./container.css');
-@import url('./animations.css');
 
 /* Sections style */
 @import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
+@import url('./hero.css');
+@import url('./mobile-menu.css');
+@import url('./what-makes-it-special');
+@import url('./how-to-play.css');
+@import url('./designed-for-clarity.css');
+@import url('./relax-with-rhythm.css');
+@import url('./unlimited-boards.css');
+@import url('./mobile-first.css');
+@import url('./visual-variety.css');
+@import url('./game-insights.css');
+@import url('./player-voices.css');
+@import url('./daily-events.css');
+@import url('./start-playing.css');
+@import url('./contact.css');
+@import url('./modal-cookies.css');
 @import url('./footer.css');
