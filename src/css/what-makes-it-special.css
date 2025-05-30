@@ -36,9 +36,6 @@
   height: 14px;
 }
 
-.what-makes__image {
-}
-
 @media screen and (min-width: 1200px) {
   .what-makes {
     margin-bottom: 100px;
@@ -55,26 +52,11 @@
     justify-content: space-between;
   }
 
-  .what-makes__subtitle {
-  }
-
   .what-makes__advantages {
     width: 505px;
   }
 
-  .what-makes__list {
-  }
-
-  .what-makes__item {
-  }
-
   .what-makes__item-text {
     width: 100%;
-  }
-
-  .what-makes__item-icon {
-  }
-
-  .what-makes__image {
   }
 }
