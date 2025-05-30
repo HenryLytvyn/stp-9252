@@ -1,5 +1,3 @@
-.header {
-}
 .header__container {
   padding: 24px 5px 0 5px;
 }
@@ -12,8 +10,6 @@
   align-items: center;
   background-color: var(--secondary-bg-color);
 }
-.header__picture {
-}
 
 .mobile-btn {
   border: none;
@@ -21,14 +17,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.header__burger-menu {
-}
-.nav {
-}
-.nav__list {
-}
-.nav__item {
 }
 
 @media screen and (max-width: 1199px) {
@@ -55,21 +43,22 @@
     display: none;
   }
 
-  .header__burger-menu {
-  }
-  .nav {
-  }
   .nav__list {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .nav__item {
+
+  .nav__item:first-child {
+    width: 118px;
   }
+
   .nav__item-link {
+    display: block;
     font-weight: 600;
     font-size: 16px;
     text-align: center;
     color: var(--secondary-color);
+    line-height: 1.2;
   }
 }
