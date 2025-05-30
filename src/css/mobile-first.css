@@ -1,13 +1,3 @@
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: var(--main-bg-color);
-}
-
 /* #region Mobile Styles */
 
 .section-mobile-first {
