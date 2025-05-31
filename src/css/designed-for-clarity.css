@@ -20,13 +20,11 @@
   list-style-type: disc;
   list-style-position: inside;
   margin-bottom: 16px;
-  padding-left: 0;
 }
 
 .clarity__item {
   font-weight: 600;
   font-size: 16px;
-  letter-spacing: -1;
 }
 
 .clarity__item::marker {
@@ -38,7 +36,7 @@
   font-size: 16px;
 }
 
-/* @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .clarity {
     padding-bottom: 100px;
   }
@@ -46,34 +44,31 @@
   .clarity__title {
     margin-bottom: 32px;
   }
+
   .clarity__content {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
   }
+
   .clarity__text-content {
     width: 553px;
     margin-bottom: 0;
   }
+
   .clarity__subtitle {
     line-height: 1.25;
   }
-  .clarity__list {
-  }
+
   .clarity__item {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.5;
-  }
-
-  .clarity__item::before {
-    width: 8px;
-    height: 8px;
+    line-height: 1.28;
   }
 
   .clarity__bottom-text {
     font-weight: 500;
     font-size: 20px;
   }
-} */
+}
