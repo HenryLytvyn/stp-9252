@@ -1,0 +1,136 @@
+/* #region Mobile Game Insights Styles */
+
+.section-gi {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.title-gi {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+.list-gi {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-bottom: 32px;
+}
+
+.item-gi {
+  border-radius: 40px;
+  width: 284px;
+  height: 90px;
+  box-shadow: inset 0 4px 13px 0 rgba(49, 49, 49, 0.25);
+  background: #d6fccd;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000;
+  text-align: center;
+}
+
+.item-gi:nth-child(1) {
+  padding: 35px 54px;
+}
+
+.item-gi:nth-child(2) {
+  padding: 35px 37px;
+}
+
+.item-gi:nth-child(3) {
+  padding: 25px 31px;
+}
+
+.item-gi:nth-child(4) {
+  padding: 35px 12px;
+}
+
+.item-gi:nth-child(5) {
+  padding: 35px 33px;
+}
+
+.item-gi:nth-child(6) {
+  padding: 25px 49px;
+}
+
+.text-gi {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 150%;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* #endregion Mobile Game Insights Styles */
+
+/* #region Desktop Game Insights Styles */
+
+@media screen and (min-width: 1200px) {
+  .section-gi {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .title-gi {
+    font-size: 40px;
+  }
+
+  .list-gi {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1121px;
+  }
+
+  .item-gi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+
+  .item-gi:nth-child(1) {
+    width: 337px;
+    padding: 0;
+  }
+
+  .item-gi:nth-child(2) {
+    width: 334px;
+    padding: 0;
+  }
+
+  .item-gi:nth-child(3) {
+    width: 406px;
+    padding: 0;
+  }
+
+  .item-gi:nth-child(4) {
+    width: 396px;
+    padding: 0;
+  }
+
+  .item-gi:nth-child(5) {
+    width: 344px;
+    padding: 0;
+  }
+
+  .item-gi:nth-child(6) {
+    width: 404px;
+    padding: 0;
+  }
+
+  .text-gi {
+    font-size: 52px;
+  }
+}
+
+/* #endregion Desktop Game Insights Styles */
