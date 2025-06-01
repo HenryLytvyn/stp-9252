@@ -1,5 +1,5 @@
 .what-makes {
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .what-makes__title {
@@ -38,7 +38,7 @@
 
 @media screen and (min-width: 1200px) {
   .what-makes {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
 
   .what-makes__title {
