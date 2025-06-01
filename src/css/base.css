@@ -9,8 +9,8 @@
   --main-font: 'Mulish', sans-serif;
   --secondary-font: 'Comfortaa', sans-serif;
 
-  --marker-size: 6px;
-  --marker-gap: 6px;
+  --marker-size: 7px;
+  --marker-gap: 4px;
 }
 
 html {
@@ -48,7 +48,7 @@ h2,
   background-color: var(--main-color);
   border-radius: 50%;
   margin-right: var(--marker-gap);
-  vertical-align: middle; /* чтобы круг был на одном уровне с текстом */
+  vertical-align: middle;
 }
 
 .transition-base {
@@ -56,11 +56,6 @@ h2,
 }
 
 @media screen and (min-width: 1200px) {
-  :root {
-    --marker-size: 8px;
-    --marker-gap: 8px;
-  }
-
   h1,
   h2 {
     font-size: 40px;
