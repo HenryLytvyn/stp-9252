@@ -8,6 +8,9 @@
 
   --main-font: 'Mulish', sans-serif;
   --secondary-font: 'Comfortaa', sans-serif;
+
+  --marker-size: 6px;
+  --marker-gap: 6px;
 }
 
 html {
@@ -38,11 +41,26 @@ h2,
   color: var(--third-color);
 }
 
+.custom-marker {
+  display: inline-block;
+  width: var(--marker-size);
+  height: var(--marker-size);
+  background-color: var(--main-color);
+  border-radius: 50%;
+  margin-right: var(--marker-gap);
+  vertical-align: middle; /* чтобы круг был на одном уровне с текстом */
+}
+
 .transition-base {
   transition: color 250ms ease, background-color 250ms ease, opacity 250ms ease;
 }
 
 @media screen and (min-width: 1200px) {
+  :root {
+    --marker-size: 8px;
+    --marker-gap: 8px;
+  }
+
   h1,
   h2 {
     font-size: 40px;
