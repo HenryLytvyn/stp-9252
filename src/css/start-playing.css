@@ -1,0 +1,145 @@
+/* #region Mobile Start Playing Styles */
+
+.section-start-playing {
+  padding-bottom: 50px;
+}
+
+.title-start {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+.text-puzzle {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 16px;
+}
+
+.list-start {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  margin-bottom: 21px;
+}
+
+.item-start {
+  display: flex;
+  align-items: baseline;
+}
+
+.img-start {
+  margin-right: 17px;
+  width: 15px;
+  height: 14px;
+}
+
+.link-start-playing {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  padding: 14px 12px;
+  background-color: #d6fccd;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 16px;
+  transition: background-color 250ms ease;
+}
+
+.link-start-playing:hover {
+  background-color: #aaf998;
+}
+
+.img-pig-start {
+  border-radius: 30px;
+  width: 286px;
+  height: 95px;
+  margin-bottom: 16px;
+}
+
+.text-start-every {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* #endregion Mobile Start Playing Styles */
+
+/* #region Desktop Start Playing Styles */
+
+@media screen and (min-width: 1200px) {
+  .section-start-playing {
+    padding-bottom: 100px;
+  }
+
+  .title-start {
+    font-size: 40px;
+  }
+
+  .text-puzzle {
+    font-size: 52px;
+  }
+
+  .list-start {
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .container-start {
+    display: flex;
+    gap: 18px;
+  }
+
+  .container-list-start {
+    width: 551px;
+    height: 168px;
+  }
+
+  .link-start-playing {
+    justify-content: center;
+    font-size: 16px;
+    padding: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 0;
+  }
+
+  .link-start-playing:hover {
+    background-color: #c1fbb4;
+  }
+
+  .link-start-playing:focus {
+    box-shadow: inset 0 4px 7px 2px rgba(48, 48, 48, 0.25);
+    background-color: #e5fcdf;
+  }
+
+  .img-pig-start {
+    width: 552px;
+    height: 168px;
+  }
+
+  .text-start-every {
+    font-size: 52px;
+  }
+}
+
+/* #endregion Desktop Start Playing Styles */
