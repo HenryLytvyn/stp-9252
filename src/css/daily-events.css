@@ -1,0 +1,139 @@
+/* #region Mobile Daily Events Styles */
+
+.section-daily {
+  padding-bottom: 50px;
+}
+
+.title-daily {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+.container-daily {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-daily-play {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 24px;
+}
+
+.container-daily {
+  margin-bottom: 24px;
+}
+
+.list-title-daily {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+}
+
+.list-daily {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+}
+
+.item-daily {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  color: white;
+  font-size: 16px;
+  line-height: 1.4;
+  padding-left: 9px;
+}
+
+.list-daily .marker {
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 8px;
+  flex-shrink: 0;
+}
+
+.text-more {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* #endregion Mobile Daily Events Styles */
+
+/* #region Desktop Daily Events Styles */
+
+@media screen and (min-width: 1200px) {
+  .section-daily {
+    padding-bottom: 100px;
+  }
+
+  .title-daily {
+    font-size: 40px;
+  }
+
+  .text-daily-play {
+    font-size: 52px;
+  }
+
+  .list-title-daily {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #fff;
+  }
+
+  .list-daily {
+    width: 683px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .container-daily {
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .list-title-daily {
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .list-daily {
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 0;
+  }
+
+  .text-more {
+    font-size: 52px;
+  }
+}
+
+/* #endregion Desktop Daily Events Styles */
