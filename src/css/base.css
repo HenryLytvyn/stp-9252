@@ -36,6 +36,10 @@ h2,
   text-align: center;
 }
 
+section {
+  scroll-margin-top: 115px;
+}
+
 .advantages-text {
   text-transform: uppercase;
   color: var(--third-color);
@@ -59,6 +63,10 @@ h2,
   h1,
   h2 {
     font-size: 40px;
+  }
+
+  section {
+    scroll-margin-top: 130px;
   }
 
   .advantages-text {
