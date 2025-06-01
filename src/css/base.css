@@ -8,6 +8,9 @@
 
   --main-font: 'Mulish', sans-serif;
   --secondary-font: 'Comfortaa', sans-serif;
+
+  --marker-size: 7px;
+  --marker-gap: 4px;
 }
 
 html {
@@ -36,6 +39,16 @@ h2,
 .advantages-text {
   text-transform: uppercase;
   color: var(--third-color);
+}
+
+.custom-marker {
+  display: inline-block;
+  width: var(--marker-size);
+  height: var(--marker-size);
+  background-color: var(--main-color);
+  border-radius: 50%;
+  margin-right: var(--marker-gap);
+  vertical-align: middle;
 }
 
 .transition-base {
