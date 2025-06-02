@@ -1,0 +1,95 @@
+/* #region Mobile Contact Styles */
+
+.section-contact {
+  padding-bottom: 50px;
+}
+
+.title-contact {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+.title-contact-support {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.text-contact {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.list-contact {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.item-contact {
+  display: flex;
+  gap: 11px;
+  word-break: break-word;
+}
+
+.icon-contact {
+  fill: #fff;
+  flex-shrink: 0;
+}
+
+/* #endregion Mobile Contact Styles */
+
+/* #region Desktop Contact Styles */
+
+@media screen and (min-width: 1200px) {
+  .section-contact {
+    padding-bottom: 100px;
+  }
+
+  .container-contact {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-content-contact {
+    width: 533px;
+  }
+
+  .title-contact {
+    font-size: 40px;
+  }
+
+  .title-contact-support {
+    font-weight: 600;
+  }
+
+  .text-contact {
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .list-contact {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+}
+
+/* #endregion Desktop Contact Styles */
