@@ -47,6 +47,10 @@
   left: 120px;
 }
 
+.unl-boards__modes::marker {
+  font-size: 12px;
+}
+
 .unl-boards__mode {
   font-weight: 600;
   font-size: 16px;
@@ -95,5 +99,19 @@
   .unl-boards__item.item-5 {
     left: 551px;
     bottom: 6px;
+  }
+
+  .unl-boards__text.subtitle-modes {
+    top: 108px;
+    left: 165px;
+  }
+
+  .unl-boards__modes {
+    top: 120px;
+    left: 95px;
+  }
+
+  .unl-boards__mode {
+    text-transform: uppercase;
   }
 }
