@@ -32,11 +32,35 @@
   line-height: 150%;
   color: #fff;
   margin-bottom: 21px;
+  margin-left: 32px;
 }
 
 .item-start {
-  display: flex;
-  align-items: baseline;
+  /* display: flex;
+  align-items: baseline; */
+  position: relative;
+}
+
+.item-start::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-200%, -50%);
+  background-image: url('../img/start-playing/image-flower-2x.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 15px;
+  height: 14px;
+}
+
+.item-start:nth-of-type(2)::before {
+  background-image: url('../img/start-playing/image-heart-2x.png');
+}
+
+.item-start:nth-of-type(3)::before {
+  background-image: url('../img/start-playing/image-fire-2x.png');
 }
 
 .img-start {
