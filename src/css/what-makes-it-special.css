@@ -20,10 +20,13 @@
 
 .what-makes__item {
   display: flex;
+  flex-direction: row;
   gap: 10px;
 }
 
 .what-makes__item-text {
+  position: relative;
+  padding-left: 25px;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.25;
@@ -31,9 +34,70 @@
   width: 263px;
 }
 
-.what-makes__item-icon {
+.what-makes__item-text::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  content: '';
   width: 15px;
   height: 14px;
+  background-image: image-set(
+    url(../img/what-makes-it-special/frame-1.png) 1x,
+    url(../img/what-makes-it-special/frame-1@2x.png) 2x
+  );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.what-makes__item-text.frame-2::before {
+  background-image: image-set(
+    url(../img/what-makes-it-special/frame-2.png) 1x,
+    url(../img/what-makes-it-special/frame-2@2x.png) 2x
+  );
+}
+
+.what-makes__item-text.frame-3::before {
+  background-image: image-set(
+    url(../img/what-makes-it-special/frame-3.png) 1x,
+    url(../img/what-makes-it-special/frame-3@2x.png) 2x
+  );
+}
+
+.what-makes__item-text.frame-4::before {
+  background-image: image-set(
+    url(../img/what-makes-it-special/frame-4.png) 1x,
+    url(../img/what-makes-it-special/frame-4@2x.png) 2x
+  );
+}
+
+.what-makes__item-text.frame-5::before {
+  background-image: image-set(
+    url(../img/what-makes-it-special/frame-5.png) 1x,
+    url(../img/what-makes-it-special/frame-5@2x.png) 2x
+  );
+}
+
+.what-makes__item-text.frame-6::before {
+  background-image: image-set(
+    url(../img/what-makes-it-special/frame-6.png) 1x,
+    url(../img/what-makes-it-special/frame-6@2x.png) 2x
+  );
+}
+
+.what-makes__item-text.frame-7::before {
+  background-image: image-set(
+    url(../img/what-makes-it-special/frame-7.png) 1x,
+    url(../img/what-makes-it-special/frame-7@2x.png) 2x
+  );
+}
+
+.what-makes__item-text.frame-8::before {
+  background-image: image-set(
+    url(../img/what-makes-it-special/frame-8.png) 1x,
+    url(../img/what-makes-it-special/frame-8@2x.png) 2x
+  );
 }
 
 @media screen and (min-width: 1200px) {
