@@ -30,6 +30,11 @@
   width: 287px;
   height: 57px;
   background-color: var(--secondary-bg-color);
+  transform: background-color;
+}
+
+.hero__playstore-link:active {
+  background-color: #aaf998;
 }
 
 .hero__playstore-icon {
@@ -45,13 +50,25 @@
 
 .hero__video {
   position: absolute;
-  z-index: -1;
+  z-index: -2;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+.hero__blur {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
 }
 
 @media screen and (min-width: 1200px) {
@@ -70,6 +87,10 @@
 
   .hero__text {
     margin-bottom: 48px;
+  }
+
+  .hero__playstore-link:hover,
+  .hero__playstore-link:focus {
   }
 
   .hero__playstore-link {
