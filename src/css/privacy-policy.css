@@ -1,0 +1,186 @@
+/* #region Mobile Privacy Policy Styles */
+
+.container-privacy-policy {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.container-back-link {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.link-privacy {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.icon-privacy-policy {
+  width: 30px;
+  height: 30px;
+  fill: #fff;
+  rotate: 90deg;
+}
+
+.title-privacy {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.title-update {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.span-update {
+  font-weight: 500;
+}
+
+.list-privacy {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.text-privacy {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+.title-item-privacy {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.item-text {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.item-info {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  position: relative;
+  padding-left: 20px;
+}
+
+.item-info::before {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #fff;
+  top: 10px;
+  left: 3px;
+}
+
+.span-info {
+  font-weight: 700;
+}
+
+.list-link-privacy {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+
+.list-rights-privacy {
+  margin-bottom: 16px;
+}
+
+/* #endregion Mobile Privacy Policy Styles */
+
+/* #region Desktop Privacy Policy Styles */
+
+@media screen and (min-width: 1200px) {
+  .container-privacy-policy {
+    padding-top: 32px;
+    padding-bottom: 50px;
+  }
+
+  .container-back-link {
+    gap: 31px;
+    margin-bottom: 50px;
+  }
+
+  .link-privacy {
+    font-size: 20px;
+    gap: 24px;
+  }
+
+  .icon-privacy-policy {
+    width: 24px;
+    height: 24px;
+  }
+
+  .title-privacy {
+    font-size: 64px;
+  }
+
+  .title-update {
+    font-size: 32px;
+    color: #fff;
+    display: block;
+  }
+
+  .list-privacy {
+    gap: 48px;
+  }
+
+  .text-privacy {
+    font-size: 20px;
+    margin-bottom: 48px;
+  }
+
+  .title-item-privacy {
+    font-size: 32px;
+  }
+
+  .item-text {
+    font-size: 20px;
+  }
+
+  .item-info {
+    font-size: 20px;
+    padding-left: 30px;
+  }
+
+  .item-info::before {
+    top: 13px;
+    left: 13px;
+  }
+}
+
+/* #endregion Desktop Privacy Policy Styles */
