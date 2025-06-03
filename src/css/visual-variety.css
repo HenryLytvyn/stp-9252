@@ -23,6 +23,7 @@
 
 .vv-list {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 16px;
@@ -85,16 +86,17 @@
   .vv-list {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: start;
-    align-items: start;
+    justify-content: center;
+    width: 1119px;
+    align-items: center;
   }
 
-  .container-items {
+  /* .container-items {
     width: 1119px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-  }
+  } */
 
   .vv-text-tile {
     font-weight: 500;
