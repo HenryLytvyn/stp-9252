@@ -30,10 +30,11 @@
   width: 287px;
   height: 57px;
   background-color: var(--secondary-bg-color);
-  transform: background-color;
+  transform: background-color box-shadow;
 }
 
 .hero__playstore-link:active {
+  border: 5px solid #34a853;
   background-color: #aaf998;
 }
 
@@ -91,6 +92,13 @@
 
   .hero__playstore-link:hover,
   .hero__playstore-link:focus {
+    background-color: #e5fcdf;
+    box-shadow: inset 0 4px 7px 2px rgba(48, 48, 48, 0.25);
+  }
+
+  .hero__playstore-link:active {
+    background-color: #c1fbb4;
+    border: 1px solid #34a853;
   }
 
   .hero__playstore-link {
