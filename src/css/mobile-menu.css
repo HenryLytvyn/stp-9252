@@ -1,0 +1,42 @@
+.modal-overlay {
+  /* background-color: orange; */
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+.mobile-menu {
+}
+
+.mobile-menu .nav {
+  display: block;
+  padding-top: 7px;
+}
+
+.mobile-menu .nav__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  padding: 32px 0;
+  border-radius: 20px;
+  background-color: rgba(214, 252, 205, 0.8);
+}
+
+.mobile-menu .nav__item-link {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--secondary-color);
+}
+
+.mobile-menu .nav__item-link:active {
+  color: #34a853;
+}
+
+@media screen and (min-width: 1200px) {
+  .mobile-menu {
+    display: none;
+  }
+}
