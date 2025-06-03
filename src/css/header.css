@@ -1,7 +1,8 @@
 .header {
   position: sticky;
-  z-index: 10;
+  z-index: 2;
   top: 0;
+  overflow: visible;
 }
 
 .header__container {
@@ -18,12 +19,13 @@
   background-color: rgba(214, 252, 205, 0.8);
 }
 
-.mobile-btn {
+.header__mobile-btn {
   border: none;
   background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 6px 4px;
 }
 
 .header__menu-icon {
@@ -54,7 +56,7 @@
     width: 60px;
   }
 
-  .mobile-btn {
+  .header__mobile-btn {
     display: none;
   }
 
