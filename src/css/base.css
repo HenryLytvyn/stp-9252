@@ -3,7 +3,7 @@
   --secondary-color: #000000;
   --third-color: rgba(255, 255, 255, 0.6);
 
-  --main-bg-color: #c64e71;
+  --main-bg-color: #cd6885;
   --secondary-bg-color: #d6fccd;
 
   --main-font: 'Mulish', sans-serif;
@@ -53,6 +53,10 @@ section {
   border-radius: 50%;
   margin-right: var(--marker-gap);
   vertical-align: middle;
+}
+
+.no-scroll {
+  overflow: hidden;
 }
 
 .transition-base {
