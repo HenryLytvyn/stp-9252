@@ -120,6 +120,14 @@
   margin-bottom: 16px;
 }
 
+.item-text.item-text-cookie {
+  margin-bottom: 0;
+}
+
+.item-info .test {
+  text-indent: -10px;
+}
+
 /* #endregion Mobile Privacy Policy Styles */
 
 /* #region Desktop Privacy Policy Styles */
