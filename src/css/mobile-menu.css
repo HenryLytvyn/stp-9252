@@ -26,7 +26,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
   width: 288px;
   padding: 32px 0;
   border-radius: 20px;
@@ -53,4 +53,19 @@
   .mobile-menu {
     display: none;
   }
+}
+
+.mobile-menu__overlay {
+  position: fixed;
+  top: -32px;
+  z-index: 2;
+  width: 100%;
+  height: calc(100% + 32px);
+  background-color: rgba(0, 0, 0, 0);
+  pointer-events: none;
+}
+
+.mobile-menu__overlay-active {
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: auto;
 }

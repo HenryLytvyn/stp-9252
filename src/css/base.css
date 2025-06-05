@@ -3,14 +3,14 @@
   --secondary-color: #000000;
   --third-color: rgba(255, 255, 255, 0.6);
 
-  --main-bg-color: #c64e71;
+  --main-bg-color: #cd6885;
   --secondary-bg-color: #d6fccd;
 
   --main-font: 'Mulish', sans-serif;
   --secondary-font: 'Comfortaa', sans-serif;
 
   --marker-size: 7px;
-  --marker-gap: 4px;
+  --marker-gap: 7px;
 }
 
 html {
@@ -55,6 +55,26 @@ section {
   vertical-align: middle;
 }
 
+.item-info {
+  position: relative;
+  padding-left: 20px;
+}
+
+.item-info::before {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #fff;
+  top: 10px;
+  left: 3px;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
 .transition-base {
   transition: color 250ms ease, background-color 250ms ease, opacity 250ms ease,
     box-shadow 250ms ease;
@@ -72,5 +92,14 @@ section {
 
   .advantages-text {
     font-size: 52px;
+  }
+
+  .item-info {
+    padding-left: 30px;
+  }
+
+  .item-info::before {
+    top: 13px;
+    left: 13px;
   }
 }
