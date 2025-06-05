@@ -61,6 +61,22 @@
   padding-left: 9px;
 }
 
+.item-daily-mark {
+  position: relative;
+  padding-left: 20px;
+}
+
+.item-daily-mark::before {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #fff;
+  top: 10px;
+  left: 3px;
+}
+
 .list-daily .marker {
   width: 6px;
   height: 6px;
@@ -133,6 +149,15 @@
 
   .text-more {
     font-size: 52px;
+  }
+
+  .item-daily-mark {
+    padding-left: 30px;
+  }
+
+  .item-daily-mark::before {
+    top: 10px;
+    left: 13px;
   }
 }
 
