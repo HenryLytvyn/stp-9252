@@ -36,8 +36,6 @@
 }
 
 .item-start {
-  /* display: flex;
-  align-items: baseline; */
   position: relative;
 }
 
@@ -145,15 +143,16 @@
     padding-top: 16px;
     padding-bottom: 16px;
     margin-bottom: 0;
+    transition: box-shadow 250ms ease, background-color 250ms ease;
   }
 
   .link-start-playing:hover {
-    background-color: #c1fbb4;
+    box-shadow: inset 0 4px 7px 2px rgba(48, 48, 48, 0.25);
+    background-color: #e5fcdf;
   }
 
   .link-start-playing:focus {
-    box-shadow: inset 0 4px 7px 2px rgba(48, 48, 48, 0.25);
-    background-color: #e5fcdf;
+    background-color: #c1fbb4;
   }
 
   .img-pig-start {
