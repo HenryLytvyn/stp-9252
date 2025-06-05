@@ -120,6 +120,16 @@
   margin-bottom: 16px;
 }
 
+.item-text.item-text-cookie {
+  margin-bottom: 0;
+}
+
+.custom-marker.span-cookie {
+  margin-left: 10px;
+  width: 6px;
+  height: 6px;
+}
+
 /* #endregion Mobile Privacy Policy Styles */
 
 /* #region Desktop Privacy Policy Styles */
