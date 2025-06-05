@@ -26,14 +26,16 @@
 }
 
 .mf-list {
-  list-style-type: disc;
-  list-style-position: inside;
   font-family: 'Mulish', sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 150%;
   color: #fff;
   margin-bottom: 15px;
+}
+
+.mf-item.item-info::before {
+  left: 15px;
 }
 
 /* #endregion Mobile Styles */
@@ -54,7 +56,7 @@
     font-size: 52px;
   }
 
-  .container-content {
+  .container-content-mobile {
     display: flex;
     justify-content: space-between;
     align-items: center;
