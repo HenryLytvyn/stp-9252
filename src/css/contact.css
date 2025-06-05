@@ -48,6 +48,14 @@
   align-items: center;
 }
 
+.item-contact:nth-child(1) .icon-contact {
+  margin-bottom: 45px;
+}
+
+.item-contact:nth-child(2) .icon-contact {
+  margin-bottom: 45px;
+}
+
 .icon-contact {
   fill: #fff;
   flex-shrink: 0;
@@ -89,6 +97,14 @@
   .list-contact {
     font-weight: 400;
     font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  .item-contact:nth-child(1) .icon-contact {
+    margin-bottom: 0;
+  }
+
+  .item-contact:nth-child(2) .icon-contact {
     margin-bottom: 0;
   }
 }
